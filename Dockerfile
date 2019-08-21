@@ -16,4 +16,4 @@ sqlite-devel vim wget zlib-devel; \
 rm -rf ${BUILDDIR};
 
 # Specify the command to run.
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
